@@ -27,6 +27,9 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
+import Vuetify from './plugins/vuetify'
+
 const app = new Vue({
+    vuetify: Vuetify,
     el: '#app',
 });
